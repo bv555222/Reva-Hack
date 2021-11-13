@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #fff;
+    color: #6a6a6a;
+    font-family: 'lato', 'Arial', sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    overflow-x: hidden;
+    }
+
+ .row {
+        max-width: 100%;
+        margin: 0 auto;
+        }   
+
+
+
+.header{
+    display:block;
+    background-image: linear-gradient(90deg,orange,blue);
+    padding:1%;
+
+}
+
+.logo{
+ 
+   text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+}
+h2{
+    margin-left:400px;
+    color: orchid;
+    padding:1%;
+   
+}
+
+.main>p{
+    padding: 1%;
+    color: tomato;
+    font-size: 35px;
+}
+
+label,.upload,.submit{
+    display: block;
+    padding: 1%;
+    color: sienna;
+    font-weight: 300;
+    font-size: 20px;
+}
+
